@@ -1,0 +1,14 @@
+{
+  "name": "susuprogram",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node susu-cli.js",
+    "test": "node --test",
+    "lint": "oxlint"
+  },
+  "devDependencies": {
+    "oxlint": "^1.81.0"
+  }
+}
